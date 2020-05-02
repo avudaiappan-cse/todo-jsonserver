@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bbasdfjlhlajsdf",
+    "title": "Python Quizz Module",
+    "count": 10,
+    "timeLimit": "Unlimited",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "id": 1,
+        "question": "print type(type(int))",
+        "options": ["type 'int'", "type 'type'", "Error", "0"],
+        "correctAnswer": "type 'type'"
+      },
+      {
+        "id": 2,
+        "question": "L = ['a','b','c','d'] print ''.join(L)",
+        "options": ["Error", "None", "abcd", "['a','b','c','d']"],
+        "correctAnswer": "abcd"
+      },
+      {
+        "id": 3,
+        "question": "chr(ord('A'))",
+        "options": ["A", "B", "a", "Error"],
+        "correctAnswer": "A"
+      },
+      {
+        "id": 4,
+        "question": "What is the output of the following program :y = 8 z = lambda x : x * y print z(6)",
+        "options": ["48", "14", "64", "None of the above"],
+        "correctAnswer": "48"
+      },
+      {
+        "id": 5,
+        "question": "What is called when a function is defined inside a class?",
+        "options": ["Module", "Class", "Another Function", "Method"],
+        "correctAnswer": "Method"
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is the use of id() function in python?",
+        "options": [
+          "Id returns the identity of the object",
+          "Every object doesn’t have a unique id",
+          "All of the mentioned",
+          "None of the mentioned"
+        ],
+        "correctAnswer": "Id returns the identity of the object"
+      },
+      {
+        "id": 7,
+        "question": "Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?",
+        "options": [
+          "[3, 4, 5, 20, 5, 25, 1, 3]",
+          "[1, 3, 3, 4, 5, 5, 20, 25]",
+          "[3, 5, 20, 5, 25, 1, 3]",
+          "[1, 3, 4, 5, 20, 5, 25]"
+        ],
+        "correctAnswer": "[3, 5, 20, 5, 25, 1, 3]"
+      },
+      {
+        "id": 8,
+        "question": "Which of the following is the use of id() function in python?",
+        "options": [
+          "the current time in milliseconds since midnight, January 1, 1970 GMT (the Unix time)",
+          "the current time in milliseconds",
+          "the current time",
+          "the current time in milliseconds since midnight, January 1, 1970"
+        ],
+        "correctAnswer": "the current time in milliseconds since midnight, January 1, 1970 GMT (the Unix time)"
+      },
+      {
+        "id": 9,
+        "question": "Which of these is not a core data type?",
+        "options": ["Lists", "Dictionary", "Tuples", "Class"],
+        "correctAnswer": "Class"
+      },
+      {
+        "id": 10,
+        "question": "Which of the following function convert a string to a float in python?",
+        "options": ["int(x [,base])", "long(x [,base] )", "float(x)", "str(x)"],
+        "correctAnswer": "float(x)"
+      }
+    ]
+  }
+]
